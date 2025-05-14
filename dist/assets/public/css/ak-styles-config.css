@@ -1,0 +1,84 @@
+* {
+    /*paleta de colores*/
+    --ak-color-1: #a6c6f3;
+    --ak-color-2: #007bff;
+    --ak-color-3: #E9F1FC;
+    --ak-color-4: #007bff;
+    --ak-color-5: #007bff;
+    --ak-color-6: #003D7F;
+    --ak-color-ligth: #007bff1f;
+    /*colores app*/
+    /*base-style-option-button*/
+    --ak-base-style-option-button-color-title: black;
+    --ak-navbar-background: #fff;
+    --ak-navbar-a: #007BFF;
+    --ak-navbar-a-hover: #007bff;
+    --ak-navbar-btn-b-color: #007BFF;
+    --ak-navbar-btn-text-color: #007BFF;
+    --ak-navbar-btn-b-color-disabled: #007BFF;
+    --ak-navbar-btn-text-color-disabled: #a6c6f3;
+    --ak-navbar-btn-b-color-hover: #007BFF;
+    --ak-navbar-btn-text-color-hove: white;
+    --ak-dinamic-color-abatar-bg: white;
+    --ak-dinamic-color-abatar-color: #007BFF;
+    /*colores requirements*/
+    --ak-requirements-icon-success: green;
+    --ak-requirements-icon-error: red;
+    --ak-requirements-icon-warning: orange;
+    --ak-requirements-icon-incomplete: yellow;
+    --ak-requirements-icon-inconsistent: purple;
+    /*Progress*/
+    --menu-module-box-link: var(--ak-color-5);
+    --menu-module-box-border-selected: var(--ak-color-5);
+    --graph-bg: #d6dadc;
+    --graph-bg-active: var(--ak-color-5);
+    --graph-bg-circle-shadow: rgba(0, 0, 0, 0.2);
+    --graph-bg-circle-percentage: var(--ak-color-5);
+    /*colores app*/
+    --ak-color-title-section: #555 !important;
+    --text-menu-footer: #fff;
+    --ak-text-primary: var(--ak-color-1);
+    --ak-a-text-primary: var(--ak-color-5);
+    --ak-a-text-primary-hover: var(--ak-text-primary);
+}
+
+.ak-text-color-1 {
+    color: var(--ak-color-1) !important;
+}
+
+.ak-text-color-2 {
+    color: var(--ak-color-2);
+}
+
+.ak-text-color-3 {
+    color: var(--ak-color-3);
+}
+
+.ak-text-color-4 {
+    color: var(--ak-color-4);
+}
+
+.ak-text-color-6 {
+    color: var(--ak-color-6);
+}
+
+.sidebar .ak-img {
+    height: 2rem !important;
+    margin-top: 0;
+}
+
+.ak-img {
+    height: 1.7rem !important;
+    margin-top: 10px !important;
+}
+
+.background-image-w {
+    background-image: url('/assets/public/images/bkg_cierre_ak.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-primary-ligth {
+    background: var(--ak-color-3);
+}
